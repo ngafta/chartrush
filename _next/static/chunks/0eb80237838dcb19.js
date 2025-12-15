@@ -1,0 +1,13 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,89745,(e,t,s)=>{t.exports=e.r(91566)},70747,e=>{"use strict";var t=e.i(93423),s=e.i(89745);function i({className:e}){return(0,t.jsxs)("svg",{width:"320",height:"353",viewBox:"0 0 320 353",fill:"none",xmlns:"http://www.w3.org/2000/svg",className:e,children:[(0,t.jsx)("style",{children:`
+        .poker-chip-path {
+          fill: black;
+        }
+        @media (prefers-color-scheme: dark) {
+          .poker-chip-path {
+            fill: white;
+          }
+        }
+        .dark .poker-chip-path {
+          fill: white;
+        }
+      `}),(0,t.jsxs)("g",{clipPath:"url(#clip0_1023_587)",children:[(0,t.jsx)("path",{d:"M124.52 43.8721H112.557V68.3156H82.6373V223.869H112.557V253.282H124.52V223.869H154.439V68.3156H124.52V43.8721Z",className:"poker-chip-path"}),(0,t.jsx)("path",{d:"M319.714 24.4325H289.807V0H277.832V24.4325H247.913V203.923H277.832V233.336H289.807V203.923H319.714V24.4325Z",className:"poker-chip-path"}),(0,t.jsx)("path",{d:"M41.8704 137.609H29.9075V164.537H0V326.072H29.9075V353H41.8704V326.072H71.8007V164.537H41.8704V137.609ZM59.8377 176.5V314.109H11.963V176.5H59.8377Z",className:"poker-chip-path"}),(0,t.jsx)("path",{d:"M207.158 99.7182H195.195V124.151H165.275V291.679H195.195V321.092H207.158V291.679H237.077V124.151H207.158V99.7182ZM225.114 136.125V279.715H177.239V136.125H225.114Z",className:"poker-chip-path"})]}),(0,t.jsx)("defs",{children:(0,t.jsx)("clipPath",{id:"clip0_1023_587",children:(0,t.jsx)("rect",{width:"320",height:"353",fill:"white"})})})]})}function r(){let e=(0,s.useRouter)();return(0,t.jsx)(t.Fragment,{children:(0,t.jsx)("div",{className:"flex min-h-screen items-center justify-center bg-background",children:(0,t.jsxs)("div",{className:"flex flex-col items-center justify-center",children:[(0,t.jsx)("div",{className:"mb-8 md:mb-12",children:(0,t.jsx)(i,{className:"w-40 h-40 md:w-[320px] md:h-[320px] text-foreground"})}),(0,t.jsx)("h1",{className:"text-5xl md:text-[80px] font-bold leading-none text-foreground tracking-tight md:tracking-[-4.8px] mb-12 md:mb-16 text-center",children:"Chart Rush"}),(0,t.jsx)("div",{className:"flex gap-4",children:(0,t.jsx)("button",{onClick:()=>e.push("/game"),className:"px-6 py-3 md:px-8 bg-foreground text-background rounded-lg font-semibold hover:opacity-90 transition-opacity cursor-pointer",children:"Начать игру"})})]})})})}e.s(["default",()=>r],70747)}]);
